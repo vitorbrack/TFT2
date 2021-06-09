@@ -16,6 +16,17 @@ var reserv = document.getElementById('reserv')
 reserv.textContent = hotel.reservados;
 
 
+function verificaVagas(){
+  hotel.reservados--;
+  if(hotel.reservados > 0){
+    reserv.textContent = hotel.reservados;
+  }else{
+    reserv.textContent = "Vagas esgotadas!!";
+  }
+  
+}
+ 
+
 
 
 
