@@ -1,8 +1,4 @@
-#pagina{
-	background-color: #000000;
-	color: #ffffff;
-	margin: 0;
-}
+
 .fundo{
 	background-image:url('../image/piscina.jpg');
 	background-repeat: no-repeat;
@@ -12,11 +8,11 @@
 }
 
  .texto{   
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 	font-family: Staatliches;
 	text-align:center;
 	letter-spacing: 1px;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .titulo{   
@@ -26,20 +22,12 @@
 	letter-spacing: 1px;
 	font-size: 40px;
 	text-shadow:1px 1px 3px #000;
-}
-
-.botao{
-	font-family: Staatliches ;
-	
-}
-
-a.ativo{
-	padding: 15px;
+	margin-top: -470px;
 }
 .button {
 	display:inline-block;
 	border-radius: 4px;
-	background-color: #1f57be;
+	background-color: #42f12b;
 	border: none;
 	color: #FFFFFF;
 	text-align: center;
@@ -76,5 +64,40 @@ a.ativo{
 	opacity: 1;
 	right: 0;
   }
-
+  .image{
+	position: relative;
+	right: 20px;
+	top: 0%;
+  }
+  .cor{
+	color: rgb(0, 0, 0);
+	font-family: Staatliches;
+	text-align:center;
+	letter-spacing: 1px;
+	font-size: 20px;
+	text-shadow:1px 1px 3px #000;
+} 
+.caixa{
+	text-align: center;
+	width: 20%;
+	height: 0%;
+	background-color: rgb(0, 0, 0);
+	color: snow;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+}
+.caixa1{
+	font-family:Staatliche ;
+	font-size: 20px;
+	text-align: center;
+	width: 10%;
+	height: 10%;
+	background-color: transparent;
+	color: rgb(255, 0, 0);
+	margin: 55px;
+	border-radius: 10px;
+	margin-top: -55px;
+}
+  
 
