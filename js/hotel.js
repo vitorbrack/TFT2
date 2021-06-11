@@ -25,7 +25,7 @@ function verificaVagas(){
   }
   
 }
-var countDownDate = new Date("Jun 10, 2021 11:50:00").getTime();
+var countDownDate = new Date("Jun 11, 2021 9:10:00").getTime();
 var x = setInterval(function() {
 
   var now = new Date().getTime();
@@ -45,6 +45,8 @@ var x = setInterval(function() {
     document.getElementById("data").innerHTML = "Acabou a promoção!";
   }
 }, 1000);
+
+
  
 
 
