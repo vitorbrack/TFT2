@@ -6,7 +6,13 @@
 	background-position: top;
 	background-size: 100%;
 }
-
+.fundo1{
+	background-image:url('../image/ShangriLaParis12.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: 100%;
+}
  .texto{   
     color: rgb(255, 255, 255);
 	font-family: Staatliches;
@@ -99,5 +105,54 @@
 	border-radius: 10px;
 	margin-top: -55px;
 }
-  
+.caixa2{
+    text-align: center;
+	width: 20%;
+	height: 0%;
+	background-color: rgb(0, 0, 0);
+	color: snow;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	font-family: 'Encode Sans', sans-serif;
+	font-size: 20px;
+}
+nav{
+	text-align: center;
+	padding:0;
+	position: fixed;
+	top:0;
+    width: 100%;
+	margin: 0;
+	overflow: hidden;  
+	z-index: 100;
+	
+	
+}
+nav ul{
+	margin: 0;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;	
+
+}
+nav ul li a{
+    font-family: Staatliches;
+	text-transform: initial;
+	text-decoration: none;
+	color: #ff2800;
+	padding: 14px 16px;
+	font-size:30px;
+	display: block;
+	text-align: center;	
+}
+nav ul li a:hover{
+	color: lightcoral;
+	font-weight: bold;	
+}
+nav ul li a.ativo{
+	padding: 15px;
+
+}
 
