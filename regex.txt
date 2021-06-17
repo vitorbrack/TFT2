@@ -8,3 +8,92 @@ placa de carro = [A-Z]{3}-\d{4}
 
 telefone com ddd = \(?\d{2}\)?\s?\d{5}-?\d{4}
 
+
+
+
+
+var exp = new RegExp(/(\d{2)(\w)/,'g')
+undefined
+var exp = new RegExp(/(\d{2)(\w)/,'g');
+undefined
+exp
+/(\d{2)(\w)/g
+ var valor = '11a22b33c'
+undefined
+valor
+"11a22b33c"
+exp.exec(valor)
+null
+exp.exec(valor)
+null
+var exp = new RegExp(/(\d{2})(\w)/,'g')
+undefined
+exp.exec(valor)
+(3) ["11a", "11", "a", index: 0, input: "11a22b33c", groups: undefined]
+exp.exec
+ƒ exec() { [native code] }
+exp.exec(valor)
+(3) ["22b", "22", "b", index: 3, input: "11a22b33c", groups: undefined]
+exp.exec(valor)
+(3) ["33c", "33", "c", index: 6, input: "11a22b33c", groups: undefined]
+exp.exec(valor)
+null
+var cpf = '99988877711'
+undefined
+exp = /(\d{3})(\d{3})(\d{3})(\d{2})/g
+/(\d{3})(\d{3})(\d{3})(\d{2})/g
+exp.exec(cpf)
+(5) ["99988877711", "999", "888", "777", "11", index: 0, input: "99988877711", groups: undefined]
+var cpfVerificado = exp.exec(cpf)
+undefined
+cpfVerificado[1]
+VM798:1 Uncaught TypeError: Cannot read property '1' of null
+    at <anonymous>:1:14
+(anonymous) @ VM798:1
+exp.test
+ƒ test() { [native code] }
+exp.test(cpf)
+true
+exp.test(valor)
+false
+exp.test(cpf)
+true
+exp.test(valor)
+false
+cpf.replace(exp,function(valorCompleto,parte1,parte2,parte3,parte4{return parte1 + '.' + parte2 + '.' + parte3 + '.' + parte4;})
+VM1647:1 Uncaught SyntaxError: Unexpected token '{'
+cpf.replace(exp,function(valorCompleto,parte1,parte2,parte3,parte4{return parte1 + '.' + parte2 + '.' + parte3 + '.' + parte4};)
+VM1655:1 Uncaught SyntaxError: Unexpected token '{'
+cpf.replace(exp,function(valorCompleto,parte1,parte2,parte3,parte4){return parte1 + '.' + parte2 + '.' + parte3 + '.' + parte4;})
+"999.888.777.11"
+cpf.replace(exp,function(valorCompleto,parte1,parte2,parte3,parte4){return parte1 + '.' + parte2 + '.' + parte3 + '-' + parte4;})
+"999.888.777-11"
+cpf.split(exp)
+(6) ["", "999", "888", "777", "11", ""]
+var nome = 'José da Silva'
+undefined
+nome.replace ('','.')
+".José da Silva"
+nome.replace (' ','.')
+"José.da Silva"
+nome.replace ('.',' ')
+"José da Silva"
+nome.replace (' ',' !')
+"José !da Silva"
+exp = /(\d{5})(\d{3})/g;
+/(\d{5})(\d{3})/g
+var cep = 78451321
+undefined
+var cep = '78451321'
+undefined
+exp.exec(cpf)
+(3) ["99988877", "99988", "877", index: 0, input: "99988877711", groups: undefined]
+cep.replace(exp,function(valorCompleto,parte1,parte2){return parte1 + '-' + parte;})
+VM2430:1 Uncaught ReferenceError: parte is not defined
+    at <anonymous>:1:77
+    at String.replace (<anonymous>)
+    at <anonymous>:1:5
+(anonymous) @ VM2430:1
+(anonymous) @ VM2430:1
+cep.replace(exp,function(valorCompleto,parte1,parte2){return parte1 + '-' + parte2;})
+"78451-321"
